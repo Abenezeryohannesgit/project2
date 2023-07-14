@@ -25,9 +25,9 @@ public class Calculator
             {
                 Scanner input=new Scanner(System.in);
                 int num1 , num2 , result;
-                System.out.println("enter the first number :");
+                System.out.println("enter the first integer :");
                 num1=input.nextInt();
-                System.out.println("enter the second number :");
+                System.out.println("enter the second integer :");
                 num2=input.nextInt();
                 result=num1 + num2;
                 System.out.println("the result of the two number is " + result);
@@ -39,9 +39,9 @@ public class Calculator
        {
         Scanner input=new Scanner(System.in);
         int num1 , num2 , result;
-        System.out.println("enter the first number :");
+        System.out.println("enter the first integer :");
         num1=input.nextInt();
-        System.out.println("enter the second number :");
+        System.out.println("enter the second integer :");
         num2=input.nextInt();
         result=num1 - num2;
         System.out.println("the result of the two number is " + result);
